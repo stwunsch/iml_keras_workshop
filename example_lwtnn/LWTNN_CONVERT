@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python lwtnn/converters/keras2json.py architecture.json variables.json weights.h5 > lwtnn.json

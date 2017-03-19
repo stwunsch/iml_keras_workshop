@@ -1,0 +1,36 @@
+{
+  "class_labels": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "inputs": [
+    {
+      "name": "sepal length",
+      "offset": 0.0,
+      "scale": 1.0
+    },
+    {
+      "name": "sepal width",
+      "offset": 0.0,
+      "scale": 1.0
+    },
+    {
+      "name": "petal length",
+      "offset": 0.0,
+      "scale": 1.0
+    },
+    {
+      "name": "petal width",
+      "offset": 0.0,
+      "scale": 1.0
+    }
+  ],
+  "keras_version": "1.1.0",
+  "nb_classes": 3,
+  "nb_inputs": 4,
+  "nb_testing": 150,
+  "nb_training": 150,
+  "nb_validation": 150,
+  "part of training-set for validation-set": 1.0
+}

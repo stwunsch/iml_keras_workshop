@@ -1,0 +1,13 @@
+*.swo
+*.swp
+*.pyc
+*.h5
+py_virtualenv/
+lwtnn/
+eigen/
+*.o
+apply
+architecture.json
+lwtnn.json
+*.root
+BinaryClassificationKeras/
