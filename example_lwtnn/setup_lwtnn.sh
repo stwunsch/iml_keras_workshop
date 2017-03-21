@@ -19,4 +19,4 @@ make -j4
 cd ..
 
 # Tell your system where to find the liblwtnn.so library
-export LD_LIBRARY_PATH=lwtnn/lib
+export LD_LIBRARY_PATH=lwtnn/lib:$LD_LIBRARY_PATH
