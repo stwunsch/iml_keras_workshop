@@ -1,5 +1,12 @@
 #!/usr/bin/env python
 
+# Select Theano as backend for Keras
+from os import environ
+environ['KERAS_BACKEND'] = 'theano'
+
+# Set architecture of system (AVX instruction set is not supported on SWAN)
+environ['THEANO_FLAGS'] = 'gcc.cxxflags=-march=corei7'
+
 import numpy as np
 np.random.seed(1234)
 from sklearn.datasets import load_iris
