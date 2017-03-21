@@ -1,4 +1,4 @@
-CC      = g++
+CC      = g++ -std=c++11
 CFLAGS  = -Ilwtnn/include
 LDFLAGS = -Llwtnn/lib -llwtnn
 
